@@ -1,0 +1,23 @@
+  File: Test-Text.txt
+
+  Test file for 'Ya3dag_LanguageExtract' examples.
+
+  Strings "&Text-String=Any text for a string" can be inside other text.
+
+
+  Strings after '//' or ';' comment are skipped.
+
+   bla bla // "&Text-Comment=String after //"
+   bla bla ; "&Text-Comment=String after ;"
+
+  Language strings with over multiple lines.
+
+    "&Text-123="
+    "Bla bla bla line 1\n"
+    "Line 2\n"
+    "Last line"
+
+  25.08.2036 RR: first edition.
+
+*/
+
