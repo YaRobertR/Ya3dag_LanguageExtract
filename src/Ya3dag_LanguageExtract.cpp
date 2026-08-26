@@ -7,8 +7,8 @@
   Language definition: "&tag=string"
     * Must always be enclosed in double quotation marks
     * The first character must be a '&'
-    * After that the tag follows. Use alphanumerics, _ or -. NO blanks.
-    * A '=' the string follows.
+    * After that the tag follows. Use alphanumeric characters, _ or -. NO blanks.
+    * After '=' the string follows.
 
   Longer language definitions can be spread over multiple lines:
      "&tag-long="

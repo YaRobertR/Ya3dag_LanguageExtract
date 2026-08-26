@@ -13,15 +13,15 @@ rem
 
 rem make subdirecory for language scan
 
-mkdir TempDir
+mkdir Language-Scan
 
 rem Usecase 1: Scan output into one output file
 
-Ya3dag_LanguageExtract -f -n TempDir\OneOutputFile.txt Test-Src\*.txt Test-Src\*.h Test-Src\*.cpp
+Ya3dag_LanguageExtract -f -n Language-Scan\OneOutputFile.txt Test-Src\*.txt Test-Src\*.h Test-Src\*.cpp
 
 rem Usecase 1: An output file for each scanned file
 
-Ya3dag_LanguageExtract -F -n TempDir\Translation.txt Test-Src\*.txt Test-Src\*.h Test-Src\*.cpp
+Ya3dag_LanguageExtract -F -n Language-Scan\Translation.txt Test-Src\*.txt Test-Src\*.h Test-Src\*.cpp
 
 rem User can inspect output of the tools
 
