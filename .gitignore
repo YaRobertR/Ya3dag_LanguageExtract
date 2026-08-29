@@ -1,8 +1,8 @@
 # Temporary subdirectories for compilation
-Debug
-Release
-Language-Scan
-Downloads
+/Debug/
+/Release/
+/Example/Language-Scan/
+/Downloads/
 
 # Compiled Object files
 *.o

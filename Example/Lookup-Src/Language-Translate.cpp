@@ -328,14 +328,14 @@ RestartParse:
 
 /*===========================================================================
 
-	Lang_FreeData()
+  Lang_FreeData()
 
-	Free up all the memory allocated for the most
-	recently loaded language data.
+  Free up all the memory allocated for the most
+  recently loaded language data.
 
-	Return:
+  Return:
 
-	  None
+    None
 
 =============================================================================
 */
@@ -363,19 +363,19 @@ void Lang_FreeData()
 
 /*===========================================================================
 
-	LangLoadTranslations()
+  LangLoadTranslations()
 
-	Load the language data for a specific language
+  Load the language data for a specific language
 
-	Arguments:
+  Arguments:
 
-	  char *pLanguage        Name of the directory containing the language data
+    char *pLanguage        Name of the directory containing the language data
 
-	  int NewLineCharForMultipleStringLines
-	                         If set, insert new line characters at end of multiple string lines.
-	                              Example: tag_xyz  "Line 1"
-	                              "Line 2"
-	                              "Line 3"
+    int NewLineCharForMultipleStringLines
+                           If set, insert new line characters at end of multiple string lines.
+                                Example: tag_xyz  "Line 1"
+                                "Line 2"
+                                "Line 3"
 
   Return:
 
@@ -598,9 +598,9 @@ void Lang_Init( int NewLineCharForMultipleStringLines)
 
 /*===========================================================================
 
-	LangStringLookup()
+  LangStringLookup()
 
-	Look up a language definition.
+  Look up a language definition.
 
   Arguments:
 
